@@ -1,0 +1,550 @@
+*{
+    margine:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/bg.png');
+
+}
+
+header {
+    background: #032642;
+    color:#032642;
+    padding: 10px 0;
+}
+/* Styling the navigation links */
+header nav ul li a {
+    color: #fff; /* Default text color */
+    text-decoration: none;
+    padding: 10px 15px; /* Space around the links */
+    transition: color 0.3s, background-color 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect for navigation links */
+header nav ul li a:hover {
+    color: #F15B29; /* Change text color on hover */
+    background-color: #fff; /* Add background color on hover */
+    border-radius: 5px; /* Optional rounded corners */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+
+    text-align: center;
+}
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Specific hover colors for each link */
+.home-link:hover {
+    color: #ff5733; /* Orange */
+}
+
+.services-link:hover {
+    color: #33ff57; /* Green */
+}
+
+.products-link:hover {
+    color: #3357ff; /* Blue */
+}
+
+.login-link:hover {
+    color: #ff33a1; /* Pink */
+}
+.category-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.category-box {
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.category-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.category-box h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.category-box:hover {
+    transform: scale(1.05);
+}
+.service-detail {
+    text-align: center;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.service-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service-detail h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.service-detail p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.service-detail form {
+    margin-top: 20px;
+}
+
+.service-detail input, .service-detail button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+}
+
+.service-detail button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.service-detail button:hover {
+    background-color: #45a049;
+}
+.search-results {
+    text-align: center;
+    margin: 30px;
+}
+
+.search-results .service-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-results .service-item h3 {
+    font-size: 1.5em;
+}
+
+.search-results .service-item p {
+    font-size: 1.2em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+      padding-bottom: 1px;
+}
+
+.category-box, .service-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #F7F7F7;
+    text-align: center;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.category-box img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.category-box a {
+    display: inline-block;
+    margin-top: 10px;
+     margin-bottom: 100px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.category-box a:hover {
+    background-color: #0056b3;
+}
+.category-box h2:hover {
+    color: orange; 
+}
+.category-box h2 {
+    transition: color 0.3s ease; 
+    color: black;
+}
+.category-box img{
+
+    width: 50%;
+    height: 50%;
+    vertical-align: middle;
+    display:inline-block;
+    max-width:80%;
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+.search-form label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.search-form input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-form button {
+    padding: 5px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* redistration form*/
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.category{
+
+     width: 100%;
+    padding: 100px;
+    margin-bottom: 1000px;
+    border-radius: 400px;
+    border: 1px solid #ccc;
+}
+form button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+---------Resistrationicon------->
+/* Target the icon specifically */
+.fa-solid.fa-user {
+    font-size: 18px; /* Adjust the size of the icon */
+    color: white; /* Change the icon color */
+    margin-right: 8px; /* Add some spacing between the icon and the text */
+    vertical-align: middle; /* Align it vertically with the text */
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Add hover effects to the link and the icon */
+li i:hover .fa-solid.fa-user {
+    color: #2e7d32; /* Change color on hover */
+}
+
+/* Style the list item to align everything nicely */
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px; /* Spacing between menu items */
+}
+
+li a {
+    text-decoration: none;
+    color: #000; /* Default text color */
+    font-size: 16px; /* Adjust text size */
+    padding: 5px 10px; /* Padding around the link */
+}
+
+li a:hover {
+    color: #2e7d32; /* Text color change on hover */
+}
+
+-----regicon---
+/* Style for dropdown menu */
+#dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 40px; /* Adjust the space from the top */
+    left: 0;
+    z-index: 100; /* Ensures the dropdown is on top of other content */
+}
+
+/* Box around the dropdown links */
+.dropdown-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    min-width: 160px; /* Ensure the box has a minimum width */
+}
+
+/* Style the links inside the dropdown box */
+.dropdown-box a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd; /* Add border between items */
+}
+
+.dropdown-box a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Remove the border from the last link */
+.dropdown-box a:last-child {
+    border-bottom: none;
+}
+
+/* To show the dropdown */
+.show {
+    display: block;
+}
+
+/* Prevent the header from resizing or overflowing */
+header {
+    position: relative; /* Keep header in its flow */
+}
+
+.dropdown-content{
+display: none;
+
+}
+.menu:hover .dropdown-content{
+display: block;
+
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+h3, h4 {
+    color: #444;
+}
+
+/* Container for Search Results */
+.search-results {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Service Item Styles */
+.service-item {
+    background-color: #fafafa;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h4 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.service-item p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.service-item label {
+    font-weight: bold;
+    color: #333;
+}
+
+.service-item input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+.service-item button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.service-item button:hover {
+    background-color: #45a049;
+}
+
+/* Category Headers */
+h3 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+/* No Services Found */
+.search-results p {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .search-results {
+        width: 95%;
+    }
+
+    .service-item {
+        margin: 10px 0;
+    }
+
+    .service-item input[type="number"] {
+        width: 40px;
+    }
+
+    .service-item button {
+        width: 100%;
+    }
+}
+.fa-brands.fa-facebook{
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+    background: var(--black-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
